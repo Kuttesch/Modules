@@ -1,0 +1,127 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .dot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+}
+.dot-1 {
+    position: absolute;
+    z-index: 1;
+    transform: translate(0, 90px);
+    animation: loader-1 3s infinite;
+}
+.dot-2 {
+    position: absolute;
+    z-index: 2;
+    transform: translate(0, 90px);
+    animation: loader-2 3s infinite;
+}
+.dot-3 {
+    position: absolute;
+    z-index: 3;
+    transform: translate(0, 90px);
+    animation: loader-3 3s infinite;
+}
+.dot-4 {
+    position: absolute;
+    z-index: 4;
+    transform: translate(0, 90px);
+    animation: loader-4 3s infinite;
+}
+.dot-5 {
+    position: absolute;
+    z-index: 5;
+    transform: translate(0, 90px);
+    animation: loader-5 3s infinite;
+}
+.dot-6 {
+    position: absolute;
+    z-index: 6;
+    transform: translate(0, 90px);
+    animation: loader-6 3s infinite;
+}
+.dot-7 {
+    position: absolute;
+    z-index: 7;
+    transform: translate(0, 90px);
+    animation: loader-7 3s infinite;
+}
+
+@keyframes loader-1 {
+    25% {
+        rotate: -160deg;
+        animation-timing-function: ease-out;
+    }
+    75% {
+        rotate: 160deg;
+        animation-timing-function: ease-in;
+    }
+}
+@keyframes loader-2 {
+    25% {
+        rotate: -155deg;
+        animation-timing-function: ease-out;
+    }
+    75% {
+        rotate: 155deg;
+        animation-timing-function: ease-in;
+    }
+}
+@keyframes loader-3 {
+    25% {
+        rotate: -150deg;
+        animation-timing-function: ease-out;
+    }
+    75% {
+        rotate: 150deg;
+        animation-timing-function: ease-in;
+    }
+}
+@keyframes loader-4 {
+    25% {
+        rotate: -145deg;
+        animation-timing-function: ease-out;
+    }
+    75% {
+        rotate: 145deg;
+        animation-timing-function: ease-in;
+    }
+}
+@keyframes loader-5 {
+    25% {
+        rotate: -140deg;
+        animation-timing-function: ease-out;
+    }
+    75% {
+        rotate: 140deg;
+        animation-timing-function: ease-in;
+    }
+}
+@keyframes loader-6 {
+    25% {
+        rotate: -135deg;
+        animation-timing-function: ease-out;
+    }
+    75% {
+        rotate: 135deg;
+        animation-timing-function: ease-in;
+    }
+}
+@keyframes loader-7 {
+    25% {
+        rotate: -130deg;
+        animation-timing-function: ease-out;
+    }
+    75% {
+        rotate: 130deg;
+        animation-timing-function: ease-in;
+    }
+}
